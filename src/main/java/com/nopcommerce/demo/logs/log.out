@@ -1,0 +1,30 @@
+2023-05-21 11:05:513 INFO  HomePage :140 - Mouse hover on electronics [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Electronics']]
+2023-05-21 11:05:572 INFO  HomePage :145 - Mouse hover on electronics [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //ul[@class='top-menu notmobile']//a[normalize-space()='Cell phones']]
+2023-05-21 11:05:656 INFO  CellPhonesPages :31 - Verify text : Cell phones
+2023-05-21 11:05:735 INFO  CellPhonesPages :36 - Click on list : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //a[contains(text(),'List')]]
+2023-05-21 11:05:802 INFO  CellPhonesPages :41 - Click on nokia lumia : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //div[@class='picture']//img[@title='Show details for Nokia Lumia 1020']]
+2023-05-21 11:05:848 INFO  NokiaLumiaPage :52 - Verify text : Nokia Lumia 1020
+2023-05-21 11:05:883 INFO  NokiaLumiaPage :57 - Verify text : $349.00
+2023-05-21 11:05:990 INFO  NokiaLumiaPage :62 - Change Quantity : 2
+2023-05-21 11:05:76 INFO  NokiaLumiaPage :67 - Click on cart button : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> id: add-to-cart-button-20]
+2023-05-21 11:05:304 INFO  NokiaLumiaPage :72 - Verify text : The product has been added to your shopping cart
+2023-05-21 11:05:377 INFO  NokiaLumiaPage :77 - Click on green button : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> css selector: span[title='Close']]
+2023-05-21 11:05:535 INFO  NokiaLumiaPage :82 - Mouse hover on shopping cart : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //span[text()='Shopping cart']]
+2023-05-21 11:05:422 INFO  NokiaLumiaPage :87 - Click on go to cart : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //button[text()='Go to cart']]
+2023-05-21 11:05:470 INFO  ShoppingCartPage :53 - Verify shopping cart title : Shopping cart
+2023-05-21 11:05:532 INFO  ShoppingCartPage :90 - Verify quantity for nokia : 2
+2023-05-21 11:05:559 INFO  ShoppingCartPage :66 - Verify total : $698.00
+2023-05-21 11:05:635 INFO  ShoppingCartPage :72 - Click on terms of services [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> id: termsofservice]
+2023-05-21 11:05:280 INFO  ShoppingCartPage :78 - Check out button : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> id: checkout]
+2023-05-21 11:05:310 INFO  SignInPage :31 - Verify Welcome text : Welcome, Please Sign In!
+2023-05-21 11:05:676 INFO  SignInPage :41 - Click on register button : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //button[text()='Register']]
+2023-05-21 11:05:710 INFO  RegisterPage :56 - Verify text : Register
+2023-05-21 11:05:788 INFO  RegisterPage :61 - Input first name : Henry
+2023-05-21 11:05:865 INFO  RegisterPage :66 - Input last name : smith
+2023-05-21 11:05:942 INFO  RegisterPage :71 - Enter email : henrysmith123@gmail.com
+2023-05-21 11:05:14 INFO  RegisterPage :76 - Enter password : password123
+2023-05-21 11:05:87 INFO  RegisterPage :81 - Confirm password : password123
+2023-05-21 11:05:781 INFO  RegisterPage :86 - Click on register : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> id: register-button]
+2023-05-21 11:05:817 INFO  RegisterPage :91 - Verify text : Your registration completed
+2023-05-21 11:05:163 INFO  RegisterPage :96 - Continue button : [[ChromeDriver: chrome on WINDOWS (f6d64f0c30e4833498be2527714b05c1)] -> xpath: //a[contains(text(),'Continue')]]
+2023-05-21 11:05:222 INFO  ShoppingCartPage :53 - Verify shopping cart title : Shopping cart

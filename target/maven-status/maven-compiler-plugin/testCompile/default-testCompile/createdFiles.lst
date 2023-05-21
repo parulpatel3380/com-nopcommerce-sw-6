@@ -1,0 +1,6 @@
+com\nopcommerce\steps\ElectronicsSteps.class
+com\nopcommerce\steps\ComputerSteps.class
+com\nopcommerce\runner\SmokeRunner.class
+com\nopcommerce\Hooks.class
+com\nopcommerce\runner\RegressionTestRunner.class
+com\nopcommerce\runner\SanityTestRunner.class
